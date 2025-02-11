@@ -18,7 +18,7 @@ img {
 .card {
     width: 350px;
     height: 150px;
-    border-bottom: 3px dotted gray;
+    border-bottom: 2px solid black;
     padding: 25px;
     transition: all 0.3s ease-in-out;
     margin: 10px;
@@ -34,7 +34,18 @@ img {
 }
 
 .card:hover {
-    border-bottom: 3px dotted red;
+    border-bottom: 2px solid red;
     /* make ti go up a bit */
     transform: translateY(-5px);
+}
+
+.search-card {
+    cursor: pointer;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    /* hard box shadow */
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+    
+    /* border-radius: 100%; */
 }

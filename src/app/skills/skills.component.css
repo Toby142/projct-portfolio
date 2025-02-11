@@ -1,0 +1,133 @@
+.back-button {
+    @apply bg-black text-white text-4xl w-3/5 p-2 px-3 font-bold;
+    background-color: #231F1C;
+    margin-bottom: 1px;
+}
+
+.big-title {
+    color: white;
+    font-weight: bolder;
+    font-size: 80px;
+    padding: 25px;
+}
+
+.card {
+    /* width: 500px; */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.card-projectlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-projectlist_item {
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 1px 5px;
+    margin: 5px 10px;
+}
+
+.card-skill_item {
+    font-size: 15px;
+    text-align: center;
+    padding: 1px 5px;
+    margin: 5px 10px;
+}
+
+.card-projectlist_item:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: white;
+    color: #231F1C;
+}
+
+.card-projectlist_item-b {
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #231F1C;
+    padding: 1px 5px;
+    margin: 5px 10px;
+}
+.card-projectlist_item-b:hover {
+    cursor: pointer;
+    border: 2px solid #231F1C;
+    background-color: #231F1C;
+    color: white;
+}
+
+
+.personalcard {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 25px 100px;
+}
+
+.personalcard-title {
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.personalcard-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* break for  tablet*/
+@media (max-width: 768px) {
+    .big-title {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .card {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-text {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .personalcard {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .personalcard-title {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .personalcard-text {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}

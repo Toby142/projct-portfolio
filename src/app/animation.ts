@@ -47,7 +47,7 @@ export const fadeAnimation = trigger('fadeAnimation', [
           height: '100%',
           width: '100%'
         }),
-        animate('0.3s', style({ opacity: 1 })),
+        animate('0.5s', style({ opacity: 1 })),
         animateChild() // Animate child elements during the transition
       ],
       { optional: true }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
 .header-container {
   @apply lg:flex lg:flex-row justify-between;
 }
@@ -134,5 +136,51 @@
 }
 
 .socials-link {
+  cursor: pointer;
+}
+
+.paper-link-container {
+  position: absolute;
+  height: 0;
+  right: -40px;
+  top: -1px;
+  transform: scale(1.1) scaleX(-1) rotate(-10deg) translate(10px, 0);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.paper-link-container:hover {
+  transform: scale(1.2) scaleX(-1) rotate(-15deg) translate(10px, 0);
+}
+
+.paper-link {
+  height: 130px;
+  position: relative;
+  /* nice shadow */
+}
+
+.paper-link_text {
+  /* use the imported font */
+  font-family: 'Reenie Beanie', cursive;
+  color: blue;
+  z-index: 2;
+  /* plcae it in the middle */
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  font-size: 30px;
+
+  transform: scaleX(-1);
+
+}
+
+.mobile-skills-link {
+  @apply text-end pt-2 px-4 text-3xl mt-4;
+  /* ball pen blue */
+  color: #1c4067;
+  font-family: 'Reenie Beanie', cursive;	
+  transform: rotate(-5deg);
   cursor: pointer;
 }

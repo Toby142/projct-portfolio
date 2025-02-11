@@ -1,4 +1,4 @@
-<div class="text-5xl font-bold lg:my-8 lg:text-center">I count {{project.length}} <span class="red-underline" routerLink="/list">projects</span>, you too?</div>
+<div class="text-5xl font-bold lg:my-8 lg:text-center">I count {{project.length + 3}} <span class="red-underline" routerLink="/list">projects</span>, you too?</div>
 <div class="flex flex-col">
     <app-featured-projects [hideTitle]="true"></app-featured-projects>
 </div>
@@ -8,8 +8,11 @@
         <div class="card-title">{{this.p.title}}</div>
         <div class="text-sm text-gray-500">{{ this.p.description }}</div>
     </div>
-</div>
 
-<div class="mt-[100px] text-center">
-    end of desktop proejct showcase :/
+
 </div>
+<div class="flex flex-col items-center">
+    <div class="text-center w-1/2 search-card bg-primary font-bold" routerLink="/list">
+        SEARCH FOR A PROJECT <span class="text-xl">+</span>
+    </div>
+</div>    

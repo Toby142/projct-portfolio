@@ -19,7 +19,7 @@
         <div class="star color-red">✦</div>
         <div class="flex flex-col">
           <div class="img-circle"></div>
-          <img src="assets/profile-img-2.jpg" alt="picture of Toby the developer">
+          <img src="../../assets/profile-img-2.jpg" alt="picture of Toby the developer">
         </div>
         <div class="star color-red">✦</div>
       </div>
@@ -39,10 +39,21 @@
 
 
 <!--info-->
-  <div class="w-full text-xs mx-1 my-4 lg:text-sm lg:my-6">
+  <div class="w-full text-xs mx-1 my-4 lg:text-sm lg:my-6 relative">
     This website is to showcase all my projects this is website is about my work, see it as a blog for projects. 
    
     <div class="font-bold">This is how it's made -> <a class="underline text-secondary" routerLink="/project/5">Portfolio Project</a></div>
+
+    <div class="paper-link-container hidden lg:block" routerLink="/skills">
+      <img class="paper-link" src="../../assets/papier.png" alt="">
+      <a class="paper-link_text" routerLink="/skills">Check out my Skills</a>  
+    </div>
+
+    <div class="mobile-skills-link lg:hidden " routerLink="/skills">
+      check out my skills
+    </div>
+
+
   </div>
 
 

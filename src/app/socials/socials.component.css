@@ -1,6 +1,12 @@
+.back-button {
+    @apply bg-black text-white text-4xl w-3/5 p-2 px-3 font-bold;
+    background-color: #231F1C;
+    margin-bottom: 1px;
+}
+
 .header {
     @apply bg-secondary text-white text-5xl lg:text-6xl font-semibold p-5 text-center;
-    border-top: 2px solid white;	
+    border-top: 1px solid white;	
 }
 
 .terminal-connect {
@@ -21,6 +27,18 @@
     margin-bottom: 10px;
     box-shadow: 10px 10px red;
 
+}
+
+.link {
+    @apply text-xl;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    margin: 5px;
+}
+
+.highlight {
+    /* like its highlighted with a yellow marker */
+    background-color: yellow;
 }
 
 /* break for desktop */

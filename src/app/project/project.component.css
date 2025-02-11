@@ -1,6 +1,8 @@
 .back-button {
     @apply bg-black text-white text-4xl w-3/5 p-2 px-3 font-bold;
     background-color: #231F1C;
+    cursor: pointer;
+    margin-bottom: 2px;
 }
 
 .title-button-content {
@@ -43,11 +45,10 @@
 }
 
 .img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border: 1px dashed white;
+    max-height: 70vh;
+    max-width: 100%;
 }
+
 
 /* break for desktop */
 @media (min-width: 768px) {

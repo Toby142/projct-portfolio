@@ -14,6 +14,7 @@ import { FeaturedProjectsComponent } from './featured-projects/featured-projects
 import { DesktopProjectShowcaseComponent } from './desktop-project-showcase/desktop-project-showcase.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SocialsComponent } from './socials/socials.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SocialsComponent } from './socials/socials.component';
     FeaturedProjectsComponent,
     DesktopProjectShowcaseComponent,
     AboutMeComponent,
-    SocialsComponent
+    SocialsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

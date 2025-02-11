@@ -27,7 +27,7 @@ export class DesktopProjectShowcaseComponent {
 
   ngOnInit(): void {
     this.http.get<Project[]>('/assets/projectList.json').subscribe(data => {
-      this.project = data;
+      this.project = data.slice(3);
       console.log(this.project);
     });
   }

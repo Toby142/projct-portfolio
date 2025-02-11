@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
+.back-button {
+    @apply bg-black text-white text-4xl w-3/5 p-2 px-3 font-bold;
+    background-color: #231F1C;
+    margin-bottom: 1px;
+  }
 
 .header {
     @apply bg-secondary text-white text-5xl lg:text-6xl font-semibold p-5 text-center;
-    border-top: 2px solid white;	
+    border-top: 1px solid white;	
 }
 
 .profile-img {
@@ -70,7 +75,6 @@
 }
 
 .polaroid:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.);
     z-index: 1;
 }
 /* end base polaroid styling */
