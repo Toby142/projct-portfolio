@@ -47,28 +47,39 @@
       }
     ]
   },
+
   {
     "id": 2,
-    "tag": "painter-api",
-    "title": "Painter API",
-    "description": "An API showcasing old painters and their artwork, like an Instagram for old painters.",
-    "about": "This project was born during my internship, and it's all about celebrating the works of old painters. Think of it as an Instagram for old painters! I developed this API using Spring Boot and Java, putting my skills to the test. It provides various endpoints to manage painters and their artwork, allowing you to explore and interact with their masterpieces.",
+    "tag": "concept-designs",
+    "title": "Labouteille Art - Concept Designs",
+    "description": "Conceptualizing and sketching luxery bear designs for Laboutille art.",
+    "about": "Labouteille Art, a brand by Djarno van der Hoff known for high-end champagne bottle artwork, is expanding itno collectible bear figures. I am responsible for designing the initial concepts, creating hand-drawn digital sketches that explore different syles and aesthetics aligned with the brand's identity. WOrking closely with Djarno, we meet montly to review ideas, set deadlines, and refine the product line's direction. Once finalized, my concepts are translated into 3D models by a production team.",
     "used": [
-      "Spring Boot",
-      "Java"
+      "Procreate (for digital sketches)"
     ],
-    "other": "Developing this API was a fantastic opportunity for me to dive into the world of web development and showcase my abilities with Spring Boot and Java. It was a labor of love, and I hope it sparks your interest in the remarkable works of old painters!",
+    "other": "This project requires a balance between creativity and brand consistency, ensuring each bear design fits withing the luxery aesthetic of Labouteille Art. The collaboration is ongoing, with new concepts regularly being developed and refined.",
     "images": [
       {
-        "name": "Nachtwacht",
-        "description": "",
-        "url": "/assets/images/painter-api-1.png"
+        "name": "Original Bear Concept",
+        "url": "/assets/images/labouteille-bears/Angry-bear-origional.png"
+      },
+      {
+        "name": "Valentine's Edition Bear Concept",
+        "url": "/assets/images/labouteille-bears/Angry-bear-valentines-edition.png"
+      },
+      {
+        "name": "Champagne Ice Bucket Bear Concept",
+        "url": "/assets/images/labouteille-bears/Angry-bear-icebucket_watermark.PNG"
       }
     ],
     "links": [
       {
-        "name": "Github Repo",
-        "url": "https://github.com/Toby142/painter-api"
+        "name": "Laboutille Art Website",
+        "url": "https://www.labouteilles.nl"
+      },
+      {
+        "name": "Finalized Bear on Laboutille Art Website",
+        "url": "https://www.labouteilles.nl/collections/bottle-bears"
       }
     ]
   },
@@ -170,6 +181,31 @@
   },
   {
     "id": 6,
+    "tag": "painter-api",
+    "title": "Painter API",
+    "description": "An API showcasing old painters and their artwork, like an Instagram for old painters.",
+    "about": "This project was born during my internship, and it's all about celebrating the works of old painters. Think of it as an Instagram for old painters! I developed this API using Spring Boot and Java, putting my skills to the test. It provides various endpoints to manage painters and their artwork, allowing you to explore and interact with their masterpieces.",
+    "used": [
+      "Spring Boot",
+      "Java"
+    ],
+    "other": "Developing this API was a fantastic opportunity for me to dive into the world of web development and showcase my abilities with Spring Boot and Java. It was a labor of love, and I hope it sparks your interest in the remarkable works of old painters!",
+    "images": [
+      {
+        "name": "Nachtwacht",
+        "description": "",
+        "url": "/assets/images/painter-api-1.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github Repo",
+        "url": "https://github.com/Toby142/painter-api"
+      }
+    ]
+  },
+  {
+    "id": 7,
     "tag": "spotlight-cinema",
     "title": "Spotlight Cinema",
     "description": "An app designed for a cinema, browse movies, book tickets, and participate in movie voting for the next screening.",
@@ -201,7 +237,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "tag": "jarpis-internship",
     "title": "Jarpis Internship",
     "description": "A year-long internship at Jarpis, where I worked on various projects and gained valuable experience.",
@@ -228,7 +264,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "tag": "anna-housing", 
     "title": "Anna Housing",
     "description": "A website for Anna Housing showcasing a house in Scheveningen.",
